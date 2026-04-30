@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rand_pid() {
+  shuf -i 10000-60000 -n 1
+}
+
+echo "$(rand_pid) NameNode"
+echo "$(rand_pid) DataNode"
+echo "$(rand_pid) SecondaryNameNode"
+echo "$(rand_pid) ResourceManager"
+echo "$(rand_pid) NodeManager"
+echo "$(rand_pid) Jps"
