@@ -19,3 +19,7 @@ fclose(fptr);
 printf("Data successfully saved to 'cloud_storage.txt'\n"); 
 return 0; 
 } 
+
+
+// sudo apt update
+// sudo apt install build-essential
